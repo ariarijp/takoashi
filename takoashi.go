@@ -49,7 +49,7 @@ func download(wait *sync.WaitGroup, u string) {
 	wait.Done()
 }
 
-func main() {
+func Run() {
 	if len(os.Args) == 1 {
 		log.Fatal("Missing required arguments")
 	}
